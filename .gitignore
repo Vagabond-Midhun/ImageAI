@@ -1,0 +1,48 @@
+# =============================
+# Python & TensorFlow Projects
+# =============================
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment folders
+env/
+venv/
+.venv/
+ENV/
+
+# Dataset and raw image archives
+dataset/
+flower_photos/
+*.tgz
+*.zip
+
+# Model files and training outputs
+model/*.h5
+model/*.ckpt
+model/*.png
+*.h5
+*.hdf5
+*.pb
+*.tflite
+
+# Streamlit cache and logs
+.streamlit/
+*.log
+
+# Jupyter notebook checkpoints (if added)
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Env configuration files (if used)
+.env
+*.env
